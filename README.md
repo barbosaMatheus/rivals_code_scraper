@@ -3,8 +3,18 @@
 Scrapes some websites for free Marvel Rivals codes.
 
 ## Installation
-
+Requires Python 3.10+
+### With cloning:
 ```bash
+git clone https://github.com/barbosaMatheus/rivals_code_scraper.git
+cd rivals_code_scraper
+pip install -r requirements.txt
+```
+
+### With .zip download:
+```bash
+unzip rivals_code_scraper-main.zip -d rivals_code_scraper
+cd rivals_code_scraper
 pip install -r requirements.txt
 ```
 
